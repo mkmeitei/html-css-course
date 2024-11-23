@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        *{
+            font-family: Roboto;
+        }
+
+      .box {
+        display: flex;
+        flex-direction: column;
+        border-style: solid;
+        border-color: rgba(148, 145, 145, 0.3);
+        border-width: 1px;
+        box-shadow: 0 0 1px 0.2px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+      }
+
+      .row {
+        padding: 0 20px 0 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .notification {
+        background-color: rgba(113, 113, 241, 1);
+        color: white;
+        padding: 3px 10px 3px 10px;
+        border-radius: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <div class="row">
+        <p class="text">Home</p>
+        <p class="notification">14</p>
+      </div>
+      <div class="row">
+        <p class="text">Notifications</p>
+        <p class="notification">3</p>
+      </div>
+      <div class="row">
+        <p class="text">Messages</p>
+        <p class="notification">5</p>
+      </div>
+    </div>
+  </body>
+</html>

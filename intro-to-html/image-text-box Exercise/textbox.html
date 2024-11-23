@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Search Box</title>
+    <style>
+      .search {
+        padding-left: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 120px;
+        border-color: grey;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 3px;
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+
+      .google-search {
+        width: 350px;
+        border-radius: 20px;
+        padding: 10px 0 10px 10px;
+        border-style: none;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+      }
+
+      .email-label {
+        font-family: Arial, Helvetica, sans-serif;
+        color: grey;
+      }
+
+      .email-text {
+        margin-top: 5px;
+        width: 250px;
+        border-style: solid;
+        border-color: grey;
+        border-width: 2px;
+        border-radius: 2px;
+        padding: 2px 0 2px 0;
+      }
+
+      .email-privacy {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-small;
+        color: grey;
+      }
+
+      .agree-button {
+        width: 250px;
+        padding: 10px 0 10px 0;
+        border-radius: 20px;
+        border-style: none;
+        background-color: rgb(61, 61, 216);
+        color: white;
+        margin-bottom: 20px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input class="search" type="text" placeholder="Search" />
+    <br />
+    <input
+      class="google-search"
+      type="text"
+      placeholder="Search Google or type a URL"
+    />
+    <br />
+    <label class="email-label" for="email-bar">Email</label><br />
+    <input id="email-bar" class="email-text" type="input" />
+    <p class="email-privacy">
+      By clicking Agree & Join, you agree to the Privacy Policy.
+    </p>
+    <button class="agree-button">Agree & Join</button>
+    <br />
+
+   
+  </body>
+</html>

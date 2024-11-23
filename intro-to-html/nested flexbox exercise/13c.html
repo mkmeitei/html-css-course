@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+      body {
+        background-color: rgb(245, 240, 240);
+        font-family: "Roboto";
+      }
+
+      .container {
+        padding: 5px;
+        width: 350px;
+        height: 130px;
+        border-style: none;
+        background-color: white;
+        border-radius: 3px;
+        box-shadow: 0.5px 1px 1px rgba(0, 0, 0, 0.25);
+        display: flex;
+        flex-direction: column;
+      }
+      .message-body {
+        display: flex;
+      }
+
+      .message-text {
+        width: 270px;
+      }
+
+      .profile-pic {
+        height: 50px;
+        width: 50px;
+        border-radius: 25px;
+        margin-right: 3px;
+      }
+
+      .profile-name,
+      .message-subject {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: medium;
+      }
+
+      .message-test-partial {
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        margin-top: 0;
+      }
+
+      .message-header-time {
+        display: flex;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <p>ALL INBOXES</p>
+      <div class="message-body">
+        <img class="profile-pic" src="/pics/cat.webp" />
+        <div class="message-text">
+          <div class="message-header-time">
+            <div>
+              <p class="profile-name">Chewy Promotions</p>
+              <p class="message-subject">Biggest sales of the year</p>
+            </div>
+            <span>4:58pm</span>
+          </div>
+          <p class="message-test-partial">
+            Hey there we are writing to tell you about our
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .cat-box {
+        /* display: inline-block; */
+        width: 200px;
+        border-style: none;
+        box-shadow: 0 0 3px grey;
+      }
+
+      .cat-pic {
+        object-fit: cover;
+        object-position: center;
+        height: 250px;
+        width: 200px;
+      }
+
+      button {
+        background-color: rgb(69, 69, 216);
+        border-style: none;
+        color: white;
+        padding: 7px;
+        margin: 0 0 6px 7px;
+        border-radius: 2px;
+      }
+
+      .cat-name {
+        font-family: Arial;
+        font-weight: bold;
+        margin: 0 0 6px 7px;
+      }
+
+      .cat-friends {
+        display: inline-block;
+        font-family: Arial;
+        font-weight: lighter;
+        color: rgb(27, 27, 27);
+        margin: 0 0 6px 7px;
+        vertical-align: 10px;
+      }
+
+      .dog-info {
+        margin-left: 5px;
+      }
+
+      .dog-profile {
+        object-fit: cover;
+        object-position: center;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+      }
+
+      .cat-container {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        column-gap: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cat-container">
+      <div class="cat-box">
+        <img class="cat-pic" src="cat.webp" />
+        <p class="cat-name">Oliver</p>
+        <div class="dog-info">
+          <img class="dog-profile" src="dog2.jpg" />
+          <p class="cat-friends">2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+
+      <div class="cat-box">
+        <img class="cat-pic" src="cat2.jpeg" />
+        <p class="cat-name">Mimi</p>
+        <div class="dog-info">
+          <img class="dog-profile" src="dog2.jpg" />
+          <p class="cat-friends">3 mutual friends</p>
+        </div>
+
+        <button>Add Friend</button>
+      </div>
+
+      <div class="cat-box">
+        <img class="cat-pic" src="dog.jpg" />
+        <p class="cat-name">Rex</p>
+        <div class="dog-info">
+          <img class="dog-profile" src="dog2.jpg" />
+          <p class="cat-friends">3 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>

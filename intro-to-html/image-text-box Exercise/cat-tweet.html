@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        .cat-box {
+            border-radius: 3px;
+            padding: 6px;
+            display: inline-block;
+            border-style: none;
+            box-shadow: 0 0 4px grey;
+        }
+
+      .cat-pic {
+        object-fit: cover;
+        object-position: center;
+        width: 50px;
+        border-radius: 100%;
+        vertical-align: middle;
+      }
+
+      .tweet-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: small;
+        color: grey;
+        margin: 0 0 0 10px;
+        align-self: center;
+        vertical-align: middle;
+      }
+
+      .tweet-button {
+        margin-left: 100px;
+        vertical-align: middle;
+        padding: 7px 12px;
+        border-style: none;
+        background-color: rgb(127, 127, 238);
+        color: white;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="cat-box">
+      <img class="cat-pic" src="cat.webp" />
+      <span class="tweet-text">What's happening?</span>
+      <button class="tweet-button">Tweet</button>
+    </div>
+  </body>
+</html>
